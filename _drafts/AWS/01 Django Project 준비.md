@@ -17,17 +17,29 @@
 }
 ```
 
-- settings\_debug.json, settings\_deploy.json 파일을 .config\_secret 폴더에 만든다.
+- settings\_debug.json 파일을 .config\_secret 폴더에 만든다.
 
 ```json
 {
   "django": {
     "allowed_hosts": [
-      "*"
+        "localhost",
+        "127.0.0.1"
     ]
   }
 }
+```
 
+- settings\_deploy.json파일을 .config\_secret 폴더에 만든다.
+
+```json
+{
+  "django": {
+    "allowed_hosts": [
+      ".compute.amazonaws.com"
+    ]
+  }
+}
 ```
 
 - settings.py 파일을 base.py로 바꾸어 settings 파이썬 패키지 폴더를 만들어 이동한다.
@@ -68,9 +80,23 @@ DEBUG = True
 ALLOWED_HOSTS = config_secret_debug['django']['allowed_hosts']
 ```
 
-- settings 파일이 이동되고 이름이 변경되었으므로 runserver 옵션 필요
+- settings/deploy.py 파일을 만들고 아래 내용 작성
 
 ```
+# base 파일의 내용을 모두 상속받음
+from .base import *
+
+config_secret_deploy = json.loads(open(CONFIG_SECRET_DEPLOY_FILE).read())
+
+DEBUG = False
+
+ALLOWED_HOSTS = config_secret_deploy['django']['allowed_hosts']
+```
+
+- local에서 작동 확인
+
+```
+# settings 파일이 이동되고 이름이 변경되었으므로 runserver 옵션 필요
 $ ./manage.py runserver --settings=config.settings.debug
 ```
 
@@ -78,5 +104,4 @@ $ ./manage.py runserver --settings=config.settings.debug
 
 ```
 .config_secret/
-
 ```

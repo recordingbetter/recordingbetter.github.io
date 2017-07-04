@@ -38,7 +38,14 @@ Are you sure you want to continue connecting (yes/no)?
 
 - [IAM Dashboard](https://console.aws.amazon.com/iam/home?region=ap-northeast-2#/home)
 
-### Programmatic access User
+### root user -> IAM에서 생성
+
+### 권한 제한 유저 
+
+- Security Group/User 생성
+- 만들어진 인스턴스에 배정 (Networking)
+
+#### Programmatic access User
 
 - Users -> Add User -> User name 입력 -> Access type : Programmatic access 
 - 기존 그룹을 복사하여 넣거나 새로운 그룹 생성 (권한 그룹)
@@ -46,9 +53,11 @@ Are you sure you want to continue connecting (yes/no)?
 - 해당 user의 account no, Access key ID, Secret access key를 사용하여 server에 접속 가능
 - AWS Management Console에 로그인할 수 없다.
 
-### AWS Management Console access User
+#### AWS Management Console access User
 
 - Users -> Add User -> User name 입력 -> Access type : AWS Management Console access 
 - 기존 그룹을 복사하여 넣거나 새로운 그룹 생성 (권한 그룹)
 - account no와 Password를 복사하여 보관하거나 cvs 파일로 다운로드 (단 한번만 보인다)
 - 해당 user의 account no, Username, Password를 사용하여 Management Console에 로그인 가능
+
+

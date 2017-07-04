@@ -1,9 +1,21 @@
 ## AWS 접속 후 초기 설치/설정 (ubuntu)
 
+#### apt-get update
+
+```
+~ apt-get update
+```
+
 #### python-pip설치
 
 ```
 ~ sudo apt-get install python-pip
+```
+
+#### git, vim 설치
+
+```
+~ sudo apt-get install git vim
 ```
 
 #### zsh 설치
@@ -12,13 +24,11 @@
 ~ sudo apt-get install zsh
 ```
 
-
 #### oh-my-zsh 설치
 
 ```
 ~ sudo curl -L http://install.ohmyz.sh | sh
 ```
-
 
 #### Default shell 변경
 
@@ -52,10 +62,28 @@ eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 ```
 
-### Python 3.6.1 install
+#### Python 3.6.1 install
 
 ```
 ~ pyenv install 3.6.1
+```
+
+#### uwsgi install (가상 환경 내에 설치)
+
+```
+~ sudo pip install uwsgi
+```
+
+#### Nginx install
+
+```
+~ sudo apt-get install nginx
+```
+
+#### Supervisor install
+
+```
+~ sudo apt-get install supervisor
 ```
 
 ### AWS Command Line Interface 설치
