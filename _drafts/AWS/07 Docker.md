@@ -66,6 +66,7 @@ EXPOSE      4567
 ```
 # Dockerfile.ubuntu 파일 생성
 # ubuntu의 기본 설정
+
 # ubuntu 설치 ( 원래는 배포용 유저를 만들어야함. 여기서는 root로 작업함 )
 FROM        ubuntu:16.04
 MAINTAINER  recordingbetter@gmail.com
@@ -75,12 +76,13 @@ RUN         apt-get -y update
 RUN         apt-get install -y python-pip
 RUN         apt-get install -y git vim
 
-# pyenv
+# pyenv 설치
 RUN         apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev \
 libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev xz-utils
 RUN         curl -L https://raw.githubusercontent.com/yyuu/pyenv-installer/master/bin/pyenv-installer | bash
 ENV         PATH /root/.pyenv/bin:$PATH
 
+# python 설치
 RUN         pyenv install 3.6.1
 
 # zsh 설치, 적용
@@ -103,12 +105,17 @@ RUN         /root/.pyenv/versions/deploy_eb_docker/bin/pip install uwsgi
 # Nginx install
 RUN         apt-get -y install nginx
 
+# Superviser
+RUN         apt-get -y install supervisor
+
 EXPOSE      4567
 ```
 
 - 위에서 만들어진 이미지를 베이스로 바뀔 수 있는 설정의 Dockerfile을 만든다.
 
 ```
+# eb 이미지 생성
+
 FROM        eb_ubuntu
 MAINTAINER  recordingbetter@gmail.com
 
@@ -116,8 +123,27 @@ MAINTAINER  recordingbetter@gmail.com
 COPY        . /srv/deploy_eb_docker
 # cd /srv/deploy_eb/docker 와 같음
 WORKDIR     /srv/deploy_eb_docker
-RUN         /root/.pyenv/versions/deploy_eb_docker/bin/pip install -r .requirements/debug.txt
 
+# requiremments.txt 설치
+RUN         /root/.pyenv/versions/deploy_eb_docker/bin/pip install -r .requirements/deploy.txt
+
+# .config/supervisor/uwsgi.conf로 이동
+#RUN         uwsgi --http :8000 --chdir /srv/deploy_ec2/django_app --home /root/.pyenv/versions/deploy_eb_docker -w config.settings.debug
+
+# supervisor 파일 복사
+COPY        .config/supervisor/uwsgi.conf /etc/supervisor/conf.d/
+COPY        .config/supervisor/nginx.conf /etc/supervisor/conf.d/
+
+
+# nginx 설정파일, nginx 사이트 파일 복사
+COPY        .config/nginx/nginx.conf /etc/nginx/
+COPY        .config/nginx/nginx-app.conf /etc/nginx/sites-available/
+
+# nginx 링크 작성
+RUN         ln -sf /etc/nginx/sites-available/nginx-app.conf /etc/nginx/sites-enabled/nginx.conf
+RUN         rm -rf /etc/nginx/sites-enabled/default
+
+CMD         supervisord -n
 # 80포트와 8000포트를 열어줌
 EXPOSE      80 8000
 ```
@@ -125,27 +151,31 @@ EXPOSE      80 8000
 - 아래 명령으로 위 스크립트를 실행
 
 ```
-# docker build -t <사용할 이미지 이름> <프로젝트 경로> -f <dockerfile이 존재하는 경로>
+# docker build -t <사용할 이미지 이름> <프로젝트 경로> -f <Dockerfile이 존재하는 경로>
 
 # 바뀌지 않을 ubuntu 기본 설정 이미지
-$ docker build -t eb_ubuntu . -f .dockerfiles/dockerfile.ubuntu
+$ docker build -t eb_ubuntu . -f .dockerfiles/Dockerfile.ubuntu
 
 # 바뀔 수 있는 설정의 이미지
-$ docker build -t eb . -f .dockerfiles/dockerfile
+$ docker build -t eb . -f .dockerfiles/Dockerfile
 ```
 
 - 도커 이미지 실행
 
 ```
-$ docker run --rm -it testapp /bin/zsh
+# 컨테이너 안에서 zsh이 실행된다. (uwsgi 꺼짐...)
+$ docker run --rm -it eb /bin/zsh
 
 # -p <port1>:<port2>
 # 컨테이너가 실행되는 환경의 port1로 들어오는 연결을 컨테이너의 port2로 연결해줌
 $ docker run --rm -it -p 4040:8080 eb /bin/zsh
 
-# runserver로 확인
-~ ./manage.py runserver --settings=config.settings.deploy 0:8000
+# zsh에 들어가지 않고 실행 (모든 실행들이 유지됨)
+# 9000포트로 들어오는 연결을 도커가 80포트로 nginx에 전달해줌
+$ docker run --rm -it -p 9000:80 eb
 
+# runserver로 확인
+~ ./manage.py runserver --settings=config.settings.deploy 0:9000
 ```
 
 - 도커 이미지 리스트
