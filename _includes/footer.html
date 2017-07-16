@@ -1,43 +1,67 @@
-    </main>
-    <footer class="page-footer teal">
-      <div class="container">
-        <div class="row">
-          <div class="col s12">
-            <img src="{{site.baseurl}}/assets/res/logo.png" alt="logo"/>
-            <p class="grey-text text-lighten-4">{{site.description}}</p>
-          </div>
-        </div>
-      </div>
-      <div class="footer-copyright">
-        <div class="container">
-          &#xA9; {{"now" | date: "%Y"}} {{site.title}}. All rights reserved. Powered by <a href="https://github.com/ShawnTeoh/matjek">MatJek</a>.
-        </div>
-      </div>
-    </footer>
-    <script src="//code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
-    {% for js in layout.js %}
-    {% if js contains "//" %}
-    <script src="{{js}}"></script>
-    {% else %}
-    <script src="{{site.baseurl}}/assets/js/{{js}}"></script>
+<!-- Documents about icons are here: http://fontawesome.io/icons/ -->
+<div class="footer">
+  <hr />
+  <div class="footer-link">
+    {% if site.author.facebook %}
+    <a href="https://www.facebook.com/{{ site.author.facebook }}"><i class="fa fa-facebook" aria-hidden="true"></i></a>
     {% endif %}
-    {% endfor %}
-    {% for js in page.js %}
-    {% if js contains "//" %}
-    <script src="{{js}}"></script>
-    {% else %}
-    <script src="{{site.baseurl}}/assets/js/{{js}}"></script>
+	
+	{% if site.author.youtubeUser %}
+    <a href="https://www.youtube.com/user/{{ site.author.youtubeUser }}"><i class="fa fa-youtube" aria-hidden="true"></i></a>
     {% endif %}
-    {% endfor %}
-    {% if site.google_tracking_id %}
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})
-      (window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', '{{site.google_tracking_id}}', 'auto');
-      ga('send', 'pageview');
-    </script>
+	
+	{% if site.author.youtubeChannel %}
+    <a href="https://www.youtube.com/channel/{{ site.author.youtubeChannel }}"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
     {% endif %}
-    <script src="{{site.baseurl}}/assets/js/main.js"></script>
-  </body>
-</html>
+
+    {% if site.author.twitter %}
+    <a href="https://twitter.com/{{ site.author.twitter }}"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+    {% endif %}
+
+    {% if site.author.github %}
+    <a href="https://github.com/{{ site.author.github }}"><i class="fa fa-github" aria-hidden="true"></i></a>
+    {% endif %}
+	
+	{% if site.author.stackoverflow %}
+    <a href="http://stackoverflow.com/users/{{ site.author.stackoverflow }}"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+    {% endif %}
+	
+	{% if site.author.quora %}
+    <a href="https://www.quora.com/profile/{{ site.author.quora }}"><i class="fa fa-quora" aria-hidden="true"></i></a>
+    {% endif %}
+
+    {% if site.author.linkedin %}
+    <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+    {% endif %}
+	
+	{% if site.author.pinterest %}
+    <a href="https://www.pinterest.com/{{ site.author.pinterest }}"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+    {% endif %}
+	
+	{% if site.author.googlePlus %}
+    <a href="https://plus.google.com/{{ site.author.googlePlus }}"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+    {% endif %}
+	
+	{% if site.author.instagram %}
+    <a href="https://www.instagram.com/{{ site.author.instagram }}"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+    {% endif %}
+	
+	{% if site.author.reddit %}
+    <a href="https://www.reddit.com/user/{{ site.author.reddit }}"><i class="fa fa-reddit" aria-hidden="true"></i></a>
+    {% endif %}
+
+    {% if site.author.medium %}
+    <a href="https://medium.com/@{{ site.author.medium }}"><i class="fa fa-medium" aria-hidden="true"></i></a>
+    {% endif %}
+
+    {% if site.author.tumblr %}
+    <a href="https://{{ site.author.tumblr }}.tumblr.com"><i class="fa fa-tumblr" aria-hidden="true"></i></a>
+    {% endif %}
+
+    {% if site.author.email %}
+    <a href="mailto:{{ site.author.email }}"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+    {% endif %}
+
+  </div>
+  © {{ site.copyright.year }} {{ site.copyright.name }}. All rights reserved.
+</div>
