@@ -6,3 +6,4 @@ _drafts
 .Old/
 .idea/
 
+*.gem
