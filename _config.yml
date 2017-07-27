@@ -91,3 +91,4 @@ gems:
   - jekyll-admin
 
 exclude:            [vendor]
+theme: jekyll-theme-architect
