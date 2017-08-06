@@ -3,6 +3,9 @@ description: software develop log
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-architect
+baseurl: ""
+#categories: ["Python", "Django"]
+#plugins: [jekyll-admin]
 
 #site:
 #  title: d;sfkjg;fdkgj

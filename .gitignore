@@ -5,5 +5,7 @@ _drafts
 .jsbeautifyrc
 .Old/
 .idea/
+.bundle
+.DS_Store
 
 *.gem

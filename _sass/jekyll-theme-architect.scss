@@ -149,6 +149,7 @@ pre code {
 
 ul, ol, dl {
   margin-bottom: 20px;
+  list-style-type: none;
 }
 
 
@@ -301,7 +302,8 @@ blockquote {
 
 ul {
   list-style-position: inside;
-  list-style: disc;
+  list-style: none;
+  //list-style: disc;
   padding-left: 20px;
 }
 
