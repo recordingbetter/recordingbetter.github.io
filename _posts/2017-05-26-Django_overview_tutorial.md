@@ -439,7 +439,7 @@ STATICFILES_DIRS = (
 ```html
 <head>
     <!--적용되면 경로는 static/bootstrap/css/bootstrap.css 이렇게 바뀜. 탬플릿태그-->
-    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{\% static 'bootstrap/css/bootstrap.css' %}">
 </head>
 ```
 
@@ -481,7 +481,7 @@ urlpatterns = [
     {% for post in posts %}
     <div class="post">
     # 경로를 urls.py에서 리버스로 가지고 온다.
-        <h3><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h3>
+        <h3><a href="{\% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h3>
         <p class="text-right"><small>published: {{ post.published_date }}</small></p>
         <p>{{ post.text|truncatechars:120 }}</p>
 
@@ -537,18 +537,18 @@ def post_create(request):
 (3) post_create.html에 보여줄 화면을 만든다.
 
 ```html
-{% extends 'blog/base.html' %}
-{% block content %}
+{\% extends 'blog/base.html' %}
+{\% block content %}
 <form action="" method="POST">
     {# 응답이 적잘한 사용자에게서 왔는지 확인한다. 해킹방지 #}
-    {% csrf_token %}
+    {\% csrf_token %}
     <input name="title" type="text">
     <textarea name="text" id="" row="10" cols="100"></textarea>
     
     {# submit 타입의 버튼은 form의 내용을 POST라는 매서드로 서버로 보낸다. #}
     <button type="submit">Add post</button>
 </form>
-{% endblock %}
+{\% endblock %}
 ```
 
 (4) 장고 폼을 적용하기 위해 blog/forms.py 파일 생성
@@ -660,17 +660,17 @@ $ git push origin [tag_name]
 ```html
 # base.html
 # 다른 html 파일의 내용이 들어가야 하는 부분 설정
-{% block content %}
-{% endblock %}
+{\% block content %}
+{\% endblock %}
 
 
 # 다른 html files
 # 상단에 base.html 을 가지고 올 것을 설정
-{% extends 'polls/base.html' %}
+{\% extends 'polls/base.html' %}
 # block 부분 설정
-{% block content %}
+{\% block content %}
 < 태그들....>
-{% endblock %}
+{\% endblock %}
 ```
 
 - base.html 파일을 만든 뒤, `static/css` 설정
@@ -686,9 +686,9 @@ STATICFILES_DIRS = [
 
 ```html
 # base.html 의 최상단에 적어준다.
-{% load static %}
+{\% load static %}
 
-<link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.css' %}">
+<link rel="stylesheet" href="{\% static 'bootstrap/css/bootstrap.css' %}">
 ```
 
 

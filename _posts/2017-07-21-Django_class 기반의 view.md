@@ -102,7 +102,7 @@ urlpatterns = [
 <body>
     {% for li in object_list %}
         <p>
-            <a href="{% url 'detail' li.pk %}">
+            <a href="{\% url 'detail' li.pk %}">
                 {{ li.name }}
             </a>
         </p>
