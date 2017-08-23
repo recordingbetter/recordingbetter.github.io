@@ -1,48 +1,80 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: 'ko-KR' }}">
+<html>
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <!--<link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" media="screen" type="text/css">-->
-    <!--<link rel="stylesheet" href="{{ '/assets/css/print.css' | relative_url }}" media="print" type="text/css">-->
+    <link href="https://fonts.googleapis.com/css?family=Mukta+Mahee|Source+Sans+Pro" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/earlyaccess/notosanskr.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/stylesheets/stylesheet.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/stylesheets/pygment_trac.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/stylesheets/print.css" media="print" />
+
+
 
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <title>{{ site.title | default: site.github.repository_name }}</title>
+    <title> {{ page.title }} </title>
   </head>
 
-
-  <header>
-      <div class="inner">
-        <a href="{{ '/' | absolute_url }}">
-          <h1>{{ site.title | default: site.github.repository_name }}</h1>
-        </a>
-        <h2>{{ site.description | default: site.github.project_tagline }}</h2>
-      </div>
-  </header>
-
   <body>
+    <header>
+      <a href="{{ site.baseurl }}">
+        <div class="inner">
+          <h1> {{ site.title }} </h1>
+          <h2> {{ site.description }} </h2>
+          <!--<a href="https://github.com/pietromenna/jekyll-architect-theme" class="button"><small>View project on</small> GitHub</a>-->
+        </div>
+      </a>
+    </header>
+
     <div id="content-wrapper">
       <div class="inner clearfix">
         <section id="main-content">
 
           {{ content }}
 
+          <!-- Pagination links -->
+          <div class="container center-block clearfix" style="margin-top: 15px; margin-left: auto; margin-right: auto;">
+            <div class="pagination">
+              {% if paginator.previous_page %}
+                <a href="{{ paginator.previous_page_path }}" class="previous btn btn-default">Previous</a>
+              {% else %}
+                <span class="previous">Previous</span>
+              {% endif %}
+              <span class="page_number">  {{ paginator.page }} of {{ paginator.total_pages }}  </span>
+              {% if paginator.next_page %}
+                <a href="{{ paginator.next_page_path }}" class="next  btn btn-default">Next</a>
+              {% else %}
+                <span class="next ">Next</span>
+              {% endif %}
+            </div>
+          </div>
         </section>
 
-        <aside id="sidebar">
 
+        <aside id="sidebar">
+          <p>
+
+          </p>
 
         </aside>
       </div>
     </div>
 
+
   </body>
+  <footer style="height: 50px; padding-top: 15px; background-color:  #474747; margin-top: 20px; margin-bottom: 0;">
+    <div class="container">
+      <div class="center-block text-white">
+        <a href="{{ site.github_url }}"><strong>github</strong></a>
+      </div>
+    </div>
+  </footer>
 </html>

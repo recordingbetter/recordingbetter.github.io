@@ -1,0 +1,21 @@
+---
+layout: default
+
+---
+
+<div id="home">
+  <h1>Recent Posts</h1>
+  <!--<ul class="posts">-->
+  <div class="container">
+
+    {% for post in paginator.posts %}
+
+      <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+      <span>{{ post.date | date_to_long_string }}</span>
+      <p></p>
+
+    {% endfor %}
+  <!--</ul>-->
+    </div>
+
+</div>

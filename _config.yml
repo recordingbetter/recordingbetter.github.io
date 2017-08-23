@@ -1,13 +1,15 @@
-title: recordingbetter's blog
-description: software develop log
+title: recordingbetter's devlog
+description: Python, Django, DRF, Postgresql, AWS, Docker....
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-architect
 baseurl: ""
-#categories: ["Python", "Django"]
-#plugins: [jekyll-admin]
+github_url: "https://github.com/recordingbettrer"
 
-#site:
-#  title: d;sfkjg;fdkgj
 
-#github.repository_url: testgtttt
+paginate_path: "/page:num/"
+paginate: 7
+
+gems: jekyll-paginate-v2, jekyll-paginate
+
+

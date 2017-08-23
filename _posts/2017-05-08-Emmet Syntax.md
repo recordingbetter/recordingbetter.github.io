@@ -1,4 +1,6 @@
-Emmet Syntax
+---
+categories: HTML/CSS
+---
 
 ## Elements
 태그를 타이핑 한 뒤 `tab`키
@@ -161,7 +163,6 @@ td[title="Hello world!" colspan=3] [tab]
 ~~~
 ul>li.item$*5 [tab]
 
-
 <ul>
     <li class="item1"></li>
     <li class="item2"></li>
@@ -275,7 +276,7 @@ p{Click }+a{here}+{ to continue} [tab]
 
 
 
-# Implicit tag names 절대 태그 이름
+## Implicit tag names 절대 태그 이름
 
 #### 많이 사용되는 태그는 생략할 수 있다.
 
@@ -307,8 +308,10 @@ p{Click }+a{here}+{ to continue} [tab]
 
 
 
-# "Lorem Ipsum" generator 더미 텍스트 생성기
+## "Lorem Ipsum" generator 더미 텍스트 생성기
+
 #### 더미 텍스트 블럭을 생성
+
 ~~~
 lorem [tab]
 
