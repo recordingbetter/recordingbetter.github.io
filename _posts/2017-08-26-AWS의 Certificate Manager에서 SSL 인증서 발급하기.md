@@ -41,6 +41,6 @@ AWS CLI로도 할 수 있지만 그냥 콘솔에서 했다.
 - 웹 브라우저에서 https://pickycookbook.co.kr로 접근이 가능한 것을 확인
 
 
-
+[참고](http://interconnection.tistory.com/21)
 
 
