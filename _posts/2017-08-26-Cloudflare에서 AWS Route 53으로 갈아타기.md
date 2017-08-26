@@ -9,7 +9,7 @@ CloudFlare는 TTFB(Time To First Byte)가 느리다고 한다.
 이게 느리면 구글에서 검색 결과에도 노출시켜주지 않는다고....
 [출처](https://hackya.com/kr/%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C%ED%94%8C%EB%A0%88%EC%96%B4-cloudflare-%EB%A5%BC-%EC%93%B0%EC%A7%80-%EB%A7%90%EC%95%84%EC%95%BC-%ED%95%98%EB%8A%94%EC%9D%B4%EC%9C%A0/)
   
-게다가 대한민국 회선의 가격이 비사다는 이유로 LAX(미국 캘리포니아 LA)쪽으로 연결한다.
+게다가 대한민국 회선의 가격이 비싸다는 이유로 LAX(미국 캘리포니아 LA)쪽으로 연결한다.
 [출처](https://namu.wiki/w/Cloudflare#fn-3)
   
 팀프로젝트의 경우 AWS Seoul Region을 사용하고 있는데 왜 미국까지....
