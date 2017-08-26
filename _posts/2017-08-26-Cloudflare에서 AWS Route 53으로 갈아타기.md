@@ -21,7 +21,7 @@ CloudFlare는 TTFB(Time To First Byte)가 느리다고 한다.
   
 공식문서는 언제나처럼 겁나많고 결정적인 도움이 되진 않는다....
 
-## 1. Hosted Zone 만들기
+### 1. Hosted Zone 만들기
 
 - Route 53 서비스를 시작하고 `Hosted Zones`에서 `Create Hosted Zone`을 선택
 - Domain Name은 현재 소유하고 있는 도메인의 루트도메인을 적는다. (ex. `recordingbetter.com`)
@@ -29,13 +29,13 @@ CloudFlare는 TTFB(Time To First Byte)가 느리다고 한다.
 - Type은 `Public Hosted Zone`, `Private Hosted Zone for Amazon VPC` 2가지가 있는데 `Private Hosted Zone for Amazon VPC`은 VPC끼리만 트래픽이 라우팅되므로 아무 이름이나 선택할 수 있지만 외부에서는 액세스가 되지 않는다. 나는 DNS를 사용할 것이라 `Public Hosted Zone` 선택.
 - 아래 `Create` 클릭하여 Hosted Zone을 만든다.
 
-## 2. Name Server 설정
+### 2. Name Server 설정
 
 - 처음 화면에 `NS` 레코드와 `SOA` 레코드가 이미 만들어져있다.
 - Domain을 만든 사이트로 넘어가 Name Server를 Route 53 Hosted Zone의 `NS`에 있는 값들로 바꿔준다.
 - Name Server 변경이 적용되는데 걸리는 시간은 그때그때 달랐다. (이번엔 5초, 지난번엔 5시간..)
 
-## 3. 메인 도메인의 레코드 설정 (AWS EB일 경우)
+### 3. 메인 도메인의 레코드 설정 (AWS EB일 경우)
 
 - CloudFlare에서는 메인 도메인 주소를 `CNAME`으로 지정하면 에러가 떠도 되긴 되었는데 Route 53에서는 되지 않았다..
 - `Create Record Set`을 클릭
