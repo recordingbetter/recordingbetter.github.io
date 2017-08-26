@@ -4,11 +4,12 @@ show_downloads: false
 google_analytics:
 theme: jekyll-theme-architect
 baseurl: ""
-github_url: "https://github.com/recordingbettrer"
+author:
+  github: https://github.com/recordingbettrer
 
 
 paginate_path: "/page:num/"
-paginate: 7
+paginate: 12
 
 gems: jekyll-paginate-v2, jekyll-paginate
 
