@@ -4,7 +4,7 @@ categories: Gitbook
 ---
 
 < 애증의 gitbook - 1277초만에 Update에 성공했다며 축하 메일을 보내왔다. >
-<p>![gitbook-class](/../../../../../images/gitbook-class.png)</p>
+![gitbook-class](/../../../../../images/gitbook-class.png)
 
 <br>
 
