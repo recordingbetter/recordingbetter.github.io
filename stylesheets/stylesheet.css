@@ -478,6 +478,14 @@ header h2 {
   letter-spacing: 0;
 }
 
+header a {
+  /*cursor: none;*/
+  text-decoration: none;
+}
+header a:hover {
+  text-decoration: none;
+}
+
 .inner {
   position: relative;
   width: 940px;

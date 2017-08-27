@@ -3,7 +3,7 @@ description: Python, Django, DRF, Postgresql, AWS, Docker....
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-architect
-baseurl: ""
+baseurl: "http://recordingbetter.com"
 author:
   github: https://github.com/recordingbettrer
 
