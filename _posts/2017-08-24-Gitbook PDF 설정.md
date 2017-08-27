@@ -22,7 +22,7 @@ categories: Gitbook
 gitbook 수정 -> gitbook 업데이트 끝날때까지 기다림 -> pdf 다운로드 -> 확인 -> 문제점 찾아 조사
 ```
 
-이 과정을 무한 반복....-_-;;
+이 과정을 무한 반복....-_-;; (로컬에서 하면 그나마 줄어들긴 함..)
 
 <br>
 
@@ -117,17 +117,19 @@ gitbook 문서, 중국어 블로그, 일본어 블로그, 프랑스어 블로그
 
 ### 플러그인
 
-1. book.json 파일의 plugins 리스트에 사용할 플러그인 추가
+1) book.json 파일의 plugins 리스트에 사용할 플러그인 추가
 
 
-2. gitbook install 하면 적용된다. 
-	- 확인 결과, 웹에서 업데이트하면서 플러그인들 설치 하는듯...
+2) gitbook install 하면 적용된다. 
+	- 확인 결과, 웹에서 업데이트하면서 플러그인들을 설치하기 때문에 필요없는 과정..
 
 ```
 $ gitbook install
 ```
 
-3. 플러그인에 설정이 필요할 경우 "pluginsConfig"에 추가
+3) 플러그인에 설정이 필요할 경우 "pluginsConfig"에 추가
+
+참고) [플러그인 종류](https://plugins.gitbook.com/)는 엄청 많다...
 
 
 ### pdf.header, footer
@@ -135,4 +137,3 @@ $ gitbook install
 - 여러 옵션이 있는데 마우것도 적용되지 않음.
 - 검색을 해보니 gitbook에 문제가 있는 것 같다.
 - [이슈](https://github.com/GitbookIO/gitbook/issues/1718)가 2월에 열려있는데 진행이 안되고 있음. 근데 저 내용대로 바꿔봐도 pdf에 적용되지 않음..
-- 
