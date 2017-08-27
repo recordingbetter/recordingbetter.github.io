@@ -41,6 +41,7 @@ $ git clone [gitbook 주소] [대상 폴더]
 ```
 
 - 마크다운으로 작성할 수 있음
+- 처음 작성을 시작할 경우에는 `gitbook init`
 
 #### 2. gitbook cli 설치
 
@@ -96,7 +97,7 @@ $ gitbook build
 - 이 앱을 쓸건 아니고 앱에 포함된 cli 명령어를 사용한다.
 
 ```
-ln -s /Applications/calibre.app/Contents/MacOS/ebook-convert /usr/local/bin
+$ ln -s /Applications/calibre.app/Contents/MacOS/ebook-convert /usr/local/bin
 ```
 
 - ebook-convert command가 앱 패키지 안에 숨어 있으므로 링크로 꺼내줌.

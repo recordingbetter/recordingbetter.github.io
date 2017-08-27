@@ -22,7 +22,7 @@ categories: Gitbook
 gitbook 수정 -> gitbook 업데이트 끝날때까지 기다림 -> pdf 다운로드 -> 확인 -> 문제점 찾아 조사
 ```
 
-이 과정을 무한 반복....-_-;; (로컬에서 하면 그나마 줄어들긴 함..)
+이 과정을 무한 반복....-_-;; (로컬에서 하면 그나마 줄어들긴 함. [로컬에서 작업하는 방법](http://recordingbetter.com/gitbook/2017/08/24/Gitbook-Update_local%EC%97%90%EC%84%9C-%EC%9E%91%EC%84%B1,-pdf-%EC%B6%9C%EB%A0%A5.html))
 
 <br>
 
