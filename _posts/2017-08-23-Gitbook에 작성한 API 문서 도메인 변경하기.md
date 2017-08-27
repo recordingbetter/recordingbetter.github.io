@@ -12,9 +12,11 @@ https://docs.pickycookbook.co.kr
 ```
 <br>
 
+![gitbook-settings](/../../../../../images/gitbook-settings.png)
+
 ### 1. Gitbook에서 설정
 
-- gitbook의 book 설정 부분에 `SETTING` 항목이 있다.
+- gitbook의 book 설정 부분에 `SETTINGS` 항목이 있다.
 - `Domains`에서 사용하고 싶은 도메인을 `Domain for content`에 입력한다.
 - `docs.pickycookbook.co.kr`
 - `SAVE`
