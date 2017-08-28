@@ -134,6 +134,6 @@ $ gitbook install
 
 ### pdf.header, footer
 
-- 여러 옵션이 있는데 마우것도 적용되지 않음.
+- 여러 옵션이 있는데 아무것도 적용되지 않음.
 - 검색을 해보니 gitbook에 문제가 있는 것 같다.
 - [이슈](https://github.com/GitbookIO/gitbook/issues/1718)가 2월에 열려있는데 진행이 안되고 있음. 근데 저 내용대로 바꿔봐도 pdf에 적용되지 않음..

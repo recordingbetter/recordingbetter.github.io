@@ -3,8 +3,8 @@ title: AWS의 Certificate Manager에서 SSL 인증서 발급하기
 categories: AWS
 ---
 
-팀프로젝트의 도메인 네임서버를 AWS Route 53으로 바꿨더니 http로는 접근이 되는데 https로 접속이 안되는 현성이 나타났다.
-Cloudflare에서는 https로 접근할 경우 SSL인증을 자동으로 해줘서 되는거 였는데
+팀프로젝트의 도메인 네임서버를 AWS Route 53으로 바꿨더니 http로는 접근이 되는데 https로 접속이 안되는 현상이 나타났다.
+Cloudflare에서는 https로 접근할 경우 SSL인증을 자동으로 해줘서 되는거 였는데  
 근데 생각해보면 자동으로 해주면 안되는거 아닌가...
   
 여튼, Route 53을 이용하더라도 https 접근이 가능해야하므로 방법을 찾아보니 ACM(AWS Certificate Manager)가 있다. SSL/TLS 인증서를 쉽게 프로비저닝, 관리, 배포할 수 있게 해준다고 한다.
