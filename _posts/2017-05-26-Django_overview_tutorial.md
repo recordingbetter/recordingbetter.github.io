@@ -1,4 +1,12 @@
-장고란?
+---
+title: Django Start - tutorial
+slug: Django Start - tutorial
+layout: post
+categories: Django
+---
+
+
+## 장고란?
 
 - 파이썬에서 같은 작업을 반복하지 않고 데이터베이스를 쉽게 사용하게 해주는 프레임워크
 

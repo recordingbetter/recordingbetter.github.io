@@ -1,4 +1,10 @@
-Django Models, Fields, Relation을 그림으로 만들기
+---
+title: Django Models Relation을 그림으로 만들기
+slug: Django Models Relation을 그림으로 만들기
+layout: post
+categories: Django
+---
+
 
 장고를 공부하면서 FileMaker에서 늘 보았던 테이블 간의 관계가 보이지 않아 답답했었다. 
 장고의 models, fields와 이들의 관계를 그림으로 보여주는 프로그램이 있어 포스트 한다.
@@ -28,4 +34,3 @@ $ python manager.py graph_models post member > model_graph.dot
 - 설치된 Graphviz 프로그램에서 생성된 dot 파일을 연다.
 - 그래프는 svg 형식이라 축소, 확대시 깨지지 않는다.
 - pdf로 저장 가능
-- 

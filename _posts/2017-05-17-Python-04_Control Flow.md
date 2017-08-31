@@ -1,5 +1,10 @@
+---
+title: "Python if for while"
+slug: "Python if for while"
+categories: Python
+---
 
-if, elif else (조건문)
+## if, elif else (조건문)
 
 ```python
 if 조건1:
@@ -21,7 +26,7 @@ else:
 
 ##### 리스트, 딕트 등의 값이 있으면 True, 값이 없으면 False
 
-# for (조건에 따른 순회)
+## for (조건에 따른 순회)
 
 ```python
 for 항목 in 순회가능(iterable)객체:
@@ -140,7 +145,7 @@ green
 [('apple', 'red'), ('banana', 'yellow'), ('melon', 'green')]
 ```
 
-# while
+## while
 
 조건이 참일경우 반복
 
@@ -151,7 +156,7 @@ green
 ```
 
 
-# 컴프리헨션 comprehension
+## 컴프리헨션 comprehension
 
 리스트보다 빠르다.
 

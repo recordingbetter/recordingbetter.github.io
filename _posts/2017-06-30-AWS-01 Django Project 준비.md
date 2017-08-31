@@ -1,4 +1,9 @@
-Django Deployment Check List
+---
+title: 01 Django 프로젝트를 AWS에 배포하기위해 준비
+slug: 01 Django 프로젝트를 AWS에 배포하기위해 준비
+layout: post
+categories: AWS
+---
 
 - Django에서의 Check list는 아래에서 확인.
 

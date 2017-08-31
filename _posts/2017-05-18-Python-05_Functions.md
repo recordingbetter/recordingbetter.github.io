@@ -1,5 +1,10 @@
+---
+title: "Python function"
+slug: "Python function"
+categories: Python
+---
 
-함수
+## 함수
 
 ### 함수의 정의, 실행
 

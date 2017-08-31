@@ -1,4 +1,9 @@
-Django AWS Deployment
+---
+title: Django 프로젝트를 AWS에 배포하기 (전체)
+slug: Django 프로젝트를 AWS에 배포하기 (전체)
+layout: post
+categories: Django
+---
 
 ## Django Deployment Check List
 
@@ -126,7 +131,7 @@ $ ssh -i ~/.ssh/aws_joe.pem ubuntu@ec2-13-124-12-223.ap-northeast-2.compute.amaz
 
 # 처음 접속하는 서버인데 계속 할건가 물어봄
 The authenticity of host 'ec2-13-124-12-223.ap-northeast-2.compute.amazonaws.com (13.124.12.223)' can't be established.
-ECDSA key fingerprint is SHA256:EkaIuENAjn1tVMQb2aG
+ECDSA key fingerprint is SHA256:Ek...Qb2aG
 Are you sure you want to continue connecting (yes/no)?
 
 # yes 하면 접속됨 -> 터미널 화면 상단에 ubuntu@ip-... 확인

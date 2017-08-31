@@ -1,5 +1,13 @@
+---
+title: Django 수업중 tip, memo
+slug: Django 수업
+layout: post
+categories: Django
+---
 
-requirements.txt 만들기
+
+
+### requirements.txt 만들기
 
 - 프로젝트 가상환경에 설치된 pip 리스트를 문서로 만든다.
 
@@ -157,7 +165,7 @@ $ u1.like_posts
 ```
 
 
-# 인스타그램
+## 인스타그램
 
 ### 구조
 

@@ -1,7 +1,10 @@
-Models
-
-
-        
+---
+title: Django Model
+slug: Django Model
+layout: post
+categories: Django
+---
+      
         
 - 데이터베이스 테이블 설정
 - 1개의 클래스는 1개의 데이터베이스 테이블

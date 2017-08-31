@@ -1,8 +1,12 @@
 
 <div class="sidebar">
-  <div class="send-email">
-     <p><a href="mailto:{{ site.author.email }}">Send an email to recordingbetter</a></p>
-     <p><a href="https://{{ site.author.github }}">recordingbetter's github</a></p>
+  <div class="sidebar-top">
+     <p>
+         <a href="mailto:{{ site.author.email }}">email to recordingbetter</a>
+     </p>
+     <p>
+         <a href="https://{{ site.author.github }}">recordingbetter's github</a>
+     </p>
   </div>
 </div>
 
@@ -10,18 +14,16 @@
 
 <div>
     <p class="sidebar-title">Categories</p>
-    {{ rooturl }}
-    {{ baseurl }}
-    <p><a href="{{ site.rooturl }}">Show All</a></p>
+    <p class="category"><a href="{{ site.rooturl }}">Show All</a></p>
     {% assign categories_list = site.categories %}
     {% if categories_list.first[0] == null %}
         {% for c in categories_list %}
-            <p><a href="{{ baseurl }}{{ site.categories_path }}#{{ c }}">{{ c | join: "/" }} ({{ site.categories[c].size }}) </a></p>
+            <p class="category"><a href="{{ baseurl }}{{ site.categories_path }}#{{ c }}">{{ c | join: "/" }} ({{ site.categories[c].size }}) </a></p>
 
         {% endfor %}
     {% else %}
         {% for c in categories_list %}
-            <p><a href="{{ baseurl }}{{ site.categories_path }}#{{ c[0] }}">
+            <p class="category"><a href="{{ baseurl }}{{ site.categories_path }}#{{ c[0] }}">
             {{ c[0] | join: "/" }} <span> ({{ c[1].size }})</span>
             </a></p>
         {% endfor %}

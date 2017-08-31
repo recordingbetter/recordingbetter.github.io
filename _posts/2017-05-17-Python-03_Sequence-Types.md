@@ -1,5 +1,11 @@
 
-리스트 list []
+---
+title: "Python list tuple dict set"
+slug: "Python list tuple dict set"
+categories: Python
+---
+
+## 리스트 list []
 
 - 순서가 있는 데이터의 집합
 - 내부 데이터 변경 가능
@@ -127,7 +133,7 @@ True
 - list3 = list1[:] -> list1의 데이터로 list3을 새로 만든다.
 
 
-# 튜플 tuple ()
+## 튜플 tuple ()
 
 - 리스트와 비슷하지만 내부 항목의 삭제나 수정이 불가능하다.
 - 요소가 1개일 경우 뒤에 꼭 `,`를 넣어줘야 한다.
@@ -169,7 +175,7 @@ True
 ```
 
 
-# 딕셔너리 dictionary {:}
+## 딕셔너리 dictionary {:}
 
 - 키:값 형태의 데이터 집합
 - 각각의 키는 중복되지 않아야 한다.
@@ -309,7 +315,7 @@ dict_items([('Ezreal', 'the Prodigal Explorer'), ("Doran's Shield", 450), ('Teem
 ```
 
 
-# set
+## set
 
 - 순서가 없고 중복된 값을 없애버림
 - 딕셔너리를 set으로 바꾸면 키 값만 남는다.

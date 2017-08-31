@@ -1,4 +1,12 @@
-Field options
+---
+title: Django Model Field Reference
+slug: Django Model Field Reference
+layout: post
+categories: Django
+---
+
+
+## Field options
 
 ### null
 
@@ -97,7 +105,7 @@ help_text="Please use the following format: <em>YYYY-MM-DD</em>."
 - 해당 필드의 유효성 검사를 위한 검사기 리스트
 
 
-# Field Types
+## Field Types
 
 ### AutoField
 
@@ -237,7 +245,7 @@ class MyUUIDModel(models.Model):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
 ```
 
-# 관계 필드
+## 관계 필드
 
 ### ForeignKey(othermodel, on_delete, **options)
 

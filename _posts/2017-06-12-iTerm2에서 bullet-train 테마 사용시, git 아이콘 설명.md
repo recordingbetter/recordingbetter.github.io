@@ -1,3 +1,11 @@
+---
+title: iTerm git icon 설명
+slug: iTerm git icon 설명
+layout: post
+categories: GIT
+---
+
+
 iTerm2에서 bullet-train 테마 사용시, git 아이콘 설명
 
 

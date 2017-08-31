@@ -1,4 +1,10 @@
-Django Runserver가 종료되지 않을때
+---
+title: Django Runserver 강제 종료
+slug: Django Runserver 강제 종료
+layout: post
+categories: Django
+---
+
 
 Django 작업 중, runserver하던 터미널을 종료하거나, Pycharm을 종료했을때 8000번 포트가 사용중이라 이후 작업이 곤란했던 적이 있다.  
 이때, 실행중인 runserver를 찾아 강제 종료하는 방법이다.

@@ -70,9 +70,12 @@ video {
   margin-right: 20px;
 }
 
-.send-email {
+.sidebar-top {
   font-size: 14px;
 }
+
+
+
 
 .sidebar-title {
   font-size: 16px;
@@ -87,6 +90,12 @@ video {
   font-family: inherit;
 }
 
+
+
+.category {
+  font-size: 14px;
+  font-weight: bolder;
+}
 /**
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.

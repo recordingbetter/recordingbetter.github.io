@@ -1,3 +1,11 @@
+---
+title: Django ORM
+slug: Django ORM
+layout: post
+categories: Django
+---
+
+
 데이터 모델을 만들면 Django는 자동으로 객체를 생성, 검색, 업데이트 및 삭제할 수있는 데이터베이스 추상화 API를 제공한다.
 
 ### 객체 만들기
