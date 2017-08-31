@@ -1,13 +1,13 @@
 ---
 layout: default
-
+paginate: true
 ---
 
 <div id="home">
   <h1>Recent Posts</h1>
   <br>
   <br>
-  <!--<ul class="posts">-->
+
   <div class="container">
 
     {% for post in paginator.posts %}
@@ -19,7 +19,7 @@ layout: default
     {% endfor %}
 
     {% include paginator.html %}
-  <!--</ul>-->
+
     </div>
 
 </div>

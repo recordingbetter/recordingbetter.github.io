@@ -59,6 +59,34 @@ video {
   vertical-align: baseline; /* 2 */
 }
 
+.paginator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.paginator-btn {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.send-email {
+  font-size: 14px;
+}
+
+.sidebar-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.sidebar h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  font-family: inherit;
+}
+
 /**
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
