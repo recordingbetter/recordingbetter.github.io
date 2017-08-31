@@ -1,5 +1,5 @@
 ---
-categories: HTML/CSS
+categories: HTML,CSS
 ---
 
 ## Elements

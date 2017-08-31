@@ -4,7 +4,7 @@ categories: Gitbook
 ---
 
 < 애증의 gitbook - 1277초만에 Update에 성공했다며 축하 메일을 보내왔다. >
-![gitbook-class](/../../../../../images/gitbook-class.png)
+![gitbook-class]({{ site.rooturl }}/images/gitbook-class.png)
 
 <br>
 
@@ -34,7 +34,7 @@ book 설정 메뉴 중 SETTINGS에서 E-Books를 사용할지 여부를 선택�
 
 #### 1. 작성 중인 book을 local에 클론 받는다. (웹에서 작성 중인 book이 있을 경우)
 
-![clone](/../../../../../images/gitbook-clone.png)
+![clone]({{ site.rooturl }}//images/gitbook-clone.png)
 
 ```
 $ git clone [gitbook 주소] [대상 폴더]

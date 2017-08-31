@@ -8,7 +8,7 @@ categories: Gitbook
 우리 Backend가 작성한 100페이지가 넘는 방대한 API 문서는 애증의 gitbook에 작성했기 때문에 하이어링데이 장소의 네트워크가 좋다고 해도 믿을 수가 없다.
 
 < 애증의 gitbook - 1277초만에 Update에 성공했다며 축하 메일을 보내왔다. >
-![gitbook-class](/../../../../../images/gitbook-class.png)
+![gitbook-class]({{ site.rooturl }}/images/gitbook-class.png)
 
 <br>
 
@@ -26,7 +26,7 @@ gitbook 수정 -> gitbook 업데이트 끝날때까지 기다림 -> pdf 다운�
 
 <br>
 
-![gitbook-class](/../../../../../images/gitbook-pdf-button.png)
+![gitbook-class]({{ site.rooturl }}/images/gitbook-pdf-button.png)
 
 book의 최초 화면에서 저 버튼을 클릭하면 렌더링 되어있던 pdf를 다운받는다.
 

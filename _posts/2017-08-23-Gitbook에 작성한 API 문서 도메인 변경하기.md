@@ -12,7 +12,7 @@ https://docs.pickycookbook.co.kr
 ```
 <br>
 
-![gitbook-settings](/../../../../../images/gitbook-settings.png)
+![gitbook-settings]({{ site.rooturl }}/images/gitbook-settings.png)
 
 ### 1. Gitbook에서 설정
 
@@ -32,6 +32,6 @@ https://docs.pickycookbook.co.kr
 - gitbook의 book 설정 부분에 `SETTING` 항목
 - `Domains`에서 아래 그림이 보인다면 성공
 
-![성공](/../../../../../images/gitbook-domain-success.png)
+![성공]({{ site.rooturl }}/images/gitbook-domain-success.png)
 
 
