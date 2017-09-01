@@ -3,7 +3,7 @@ description: Python, Django, DRF, Postgresql, AWS, Docker....
 show_downloads: false
 google_analytics: UA-68697418-2
 theme: jekyll-theme-architect
-rooturl: "http://recordingbetter.com"
+rooturl: http://recordingbetter.com
 baseurl: ""
 categories_path : /categories.html
 
@@ -20,5 +20,5 @@ paginate_path: "/page:num/"
 paginate: 10
 
 
-gems: [jekyll-paginate-v2, jekyll-paginate, jekyll-feed]
+gems: [jekyll-paginate-v2, jekyll-paginate]
 
