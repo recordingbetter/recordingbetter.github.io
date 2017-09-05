@@ -4,19 +4,19 @@
       <!--<hr />-->
       <div class="footer-link">
         {% if site.author.facebook %}
-        <a href="{{ site.author.facebook }}"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a href="{{ site.author.facebook }}" target="_blank" title="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
         {% endif %}
 
         {% if site.author.github %}
-        <a href="{{ site.author.github }}"><i class="fa fa-github" aria-hidden="true"></i></a>
+        <a href="https://{{ site.author.github }}" target="_blank" title="github"><i class="fa fa-github" aria-hidden="true"></i></a>
         {% endif %}
 
         {% if site.author.linkedin %}
-        <a href="{{ site.author.linkedin }}"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        <a href="{{ site.author.linkedin }}" target="_blank" title="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
         {% endif %}
 
         {% if site.author.email %}
-        <a href="mailto:{{ site.author.email }}"><i class="fa fa-envelope" aria-hidden="false"></i></a>
+        <a href="mailto:{{ site.author.email }}" target="_blank" title="email"><i class="fa fa-envelope" aria-hidden="false"></i></a>
         {% endif %}
 
       </div>
