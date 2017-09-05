@@ -14,6 +14,10 @@ author:
   facebook: https://facebook.com/recordingbetter
   linkedin: https://www.linkedin.com/in/동희-조-97586571/
 
+comments :
+  disqus :
+    short_name : recordingbetter
+
 copyright:
   year: 2017
   name: Joe Donghee Cho
