@@ -11,6 +11,12 @@ author:
   name: Joe Donghee Cho
   github: github.com/recordingbetter
   email: recordingbetter@gmail.com
+  facebook: https://facebook.com/recordingbetter
+  linkedin: https://www.linkedin.com/in/동희-조-97586571/
+
+copyright:
+  year: 2017
+  name: Joe Donghee Cho
 
 permalink: /:categories/:year/:month/:day/:title
 

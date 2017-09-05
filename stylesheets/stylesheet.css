@@ -96,6 +96,31 @@ video {
   font-size: 14px;
   font-weight: bolder;
 }
+
+footer {
+  height: 50px;
+  padding-top: 15px;
+  background-color: #ffffff;
+  margin-top: 20px;
+  margin-bottom: 0;
+  border-top: solid 1px #dddddd;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.footer-link {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.footer-link a {
+  margin-left: 10px;
+  margin-right: 10px;
+  /*margin-bottom: 10px;*/
+}
+
 /**
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
