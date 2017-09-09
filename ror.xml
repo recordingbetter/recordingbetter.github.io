@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for http://recordingbetter.com/</title>
+  <link>http://recordingbetter.com/</link>
+
+<item>
+     <link>http://recordingbetter.com/</link>
+     <title>  </title>
+     <description>  </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/aws/2017/08/27/AWS%EC%9D%98-Certificate-Manager%EC%97%90%EC%84%9C-SSL-%EC%9D%B8%EC%A6%9D%EC%84%9C-%EB%B0%9C%EA%B8%89%ED%95%98%EA%B8%B0</link>
+     <title> AWSì Certificate Managerìì SSL ì¸ì¦ì ë°ê¸íê¸° </title>
+     <description> AWSì Certificate Managerìì SSL ì¸ì¦ì ë°ê¸íê¸° </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/aws/2017/08/26/Cloudflare%EC%97%90%EC%84%9C-AWS-Route-53%EC%9C%BC%EB%A1%9C-%EA%B0%88%EC%95%84%ED%83%80%EA%B8%B0</link>
+     <title> Cloudflareìì AWS Route 53ì¼ë¡ ê°ìíê¸° </title>
+     <description> Cloudflareìì AWS Route 53ì¼ë¡ ê°ìíê¸° </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/gitbook/2017/08/24/Gitbook-Update_local%EC%97%90%EC%84%9C-%EC%9E%91%EC%84%B1,-pdf-%EC%B6%9C%EB%A0%A5</link>
+     <title> Gitbook Update / localìì ìì±, pdf ì¶ë ¥ </title>
+     <description> Gitbook Update / localìì ìì±, pdf ì¶ë ¥ </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/gitbook/2017/08/24/Gitbook-PDF-%EC%84%A4%EC%A0%95</link>
+     <title> Gitbook PDF ì¤ì  (book.json) </title>
+     <description> Gitbook PDF ì¤ì  (book.json) </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/gitbook/2017/08/23/Gitbook%EC%97%90-%EC%9E%91%EC%84%B1%ED%95%9C-API-%EB%AC%B8%EC%84%9C-%EB%8F%84%EB%A9%94%EC%9D%B8-%EB%B3%80%EA%B2%BD%ED%95%98%EA%B8%B0</link>
+     <title> Gitbookì ìì±í API ë¬¸ì ëë©ì¸ ë³ê²½íê¸° </title>
+     <description> Gitbookì ìì±í API ë¬¸ì ëë©ì¸ ë³ê²½íê¸° </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/2017/08/07/%ED%86%A0%ED%81%B0-%EA%B8%B0%EB%B0%98%EC%9D%98-%EC%9C%A0%EC%A0%80-%EC%9D%B8%EC%A6%9D-%EC%8B%9C%EC%8A%A4%ED%85%9C</link>
+     <title> í í° ê¸°ë°ì ì ì  ì¸ì¦ ìì¤í </title>
+     <description> í í° ê¸°ë°ì ì ì  ì¸ì¦ ìì¤í </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/2017/08/07/Django-CORS</link>
+     <title> Django cors </title>
+     <description> Django cors </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/2017/08/02/Django-REST-%EB%A1%9C%EA%B7%B8%EC%9D%B8-%EA%B3%BC%EC%A0%95</link>
+     <title> Django Rest ë¡ê·¸ì¸ ê³¼ì  </title>
+     <description> Django Rest ë¡ê·¸ì¸ ê³¼ì  </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/2017/08/01/Javascript</link>
+     <title> Javascript </title>
+     <description> Javascript </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/2017/08/01/Django-SNS-%EB%A1%9C%EA%B7%B8%EC%9D%B8-%EC%BB%A4%EC%8A%A4%ED%84%B0%EB%A7%88%EC%9D%B4%EC%A7%95</link>
+     <title> Django sns ë¡ê·¸ì¸ ì»¤ì¤í°ë§ì´ì§ </title>
+     <description> Django sns ë¡ê·¸ì¸ ì»¤ì¤í°ë§ì´ì§ </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/page2/</link>
+     <title>  </title>
+     <description>  </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/categories.html</link>
+     <title> Categories </title>
+     <description> Categories </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/gitbook/2017/08/24/Gitbook-Update_local%EC%97%90%EC%84%9C-%EC%9E%91%EC%84%B1,-pdf-%EC%B6%9C%EB%A0%A5.html</link>
+     <title> Gitbook Update / localìì ìì±, pdf ì¶ë ¥ </title>
+     <description> Gitbook Update / localìì ìì±, pdf ì¶ë ¥ </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/2017/07/27/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC</link>
+     <title> ë¤í¸ìí¬ </title>
+     <description> ë¤í¸ìí¬ </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/2017/07/27/TDD-Test-Drivien-Development</link>
+     <title> Tdd   test drivien development </title>
+     <description> Tdd   test drivien development </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/2017/07/27/Django-Rest-Framework-(DRF)</link>
+     <title> Django rest framework (drf) </title>
+     <description> Django rest framework (drf) </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/2017/07/25/Python-Flake8</link>
+     <title> Python Flake8 </title>
+     <description> Python Flake8 </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/2017/07/24/Software-Engineering</link>
+     <title> Software engineering </title>
+     <description> Software engineering </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/2017/07/21/Django_class-%EA%B8%B0%EB%B0%98%EC%9D%98-view</link>
+     <title> Django_class ê¸°ë°ì view </title>
+     <description> Django_class ê¸°ë°ì view </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/2017/07/17/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0</link>
+     <title> ìë£êµ¬ì¡° </title>
+     <description> ìë£êµ¬ì¡° </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/2017/07/17/Celery</link>
+     <title> Celery </title>
+     <description> Celery </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/2017/07/13/AWS-Deploy</link>
+     <title> Aws Deploy </title>
+     <description> Aws Deploy </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/2017/07/11/RESTful-API</link>
+     <title> Restful api </title>
+     <description> Restful api </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/page3/</link>
+     <title>  </title>
+     <description>  </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/html,css/2017/05/11/Cascading-Style-Sheet</link>
+     <title> CSS </title>
+     <description> CSS </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/html,css/2017/05/09/Hyper-Text-Markup-Language</link>
+     <title> HTML </title>
+     <description> HTML </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/html,css/2017/05/08/Emmet-Syntax</link>
+     <title> Emmet syntax </title>
+     <description> Emmet syntax </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/ide/2017/05/15/Vim(Vi-IMproved)-Editor</link>
+     <title> VIM </title>
+     <description> VIM </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/git/2017/06/12/iTerm-git-icon-%EC%84%A4%EB%AA%85</link>
+     <title> iTerm git icon ì¤ëª </title>
+     <description> iTerm git icon ì¤ëª </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/git/2017/05/29/GIT-Tracking-etc</link>
+     <title> GIT Tracking etc </title>
+     <description> GIT Tracking etc </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/git/2017/05/28/GIT-Grep-Reset</link>
+     <title> GIT Grep Reset </title>
+     <description> GIT Grep Reset </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/git/2017/05/27/git-Stash</link>
+     <title> GIT Stash </title>
+     <description> GIT Stash </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/git/2017/05/25/git-branch</link>
+     <title> GIT Branch </title>
+     <description> GIT Branch </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/git/2017/05/21/git-try-out</link>
+     <title> GIT Try Out </title>
+     <description> GIT Try Out </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/git/2017/05/20/git-more</link>
+     <title> GITì´ë? </title>
+     <description> GITì´ë? </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/git/2017/05/16/git-quick-start</link>
+     <title> GIT ë¹ ë¥´ê² ììíê¸° </title>
+     <description> GIT ë¹ ë¥´ê² ììíê¸° </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/python/2017/05/24/Python-%EC%98%88%EC%99%B8-%EC%B2%98%EB%A6%AC</link>
+     <title> Python ìì¸ ì²ë¦¬ </title>
+     <description> Python ìì¸ ì²ë¦¬ </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/python/2017/05/24/Python-%ED%8C%8C%EC%9D%BC-%EC%9E%85%EC%B6%9C%EB%A0%A5</link>
+     <title> Python íì¼ ìì¶ë ¥ </title>
+     <description> Python íì¼ ìì¶ë ¥ </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/python/2017/05/23/Python-%EC%A0%95%EA%B7%9C%ED%91%9C%ED%98%84%EC%8B%9D</link>
+     <title> Python ì ê·ííì </title>
+     <description> Python ì ê·ííì </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/python/2017/05/22/Python-module</link>
+     <title> Python module </title>
+     <description> Python module </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/python/2017/05/18/Python-function</link>
+     <title> Python function </title>
+     <description> Python function </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/python/2017/05/17/Python-if-for-while</link>
+     <title> Python if for while </title>
+     <description> Python if for while </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/python/2017/05/17/Python-%EC%9E%90%EB%A3%8C%ED%98%95</link>
+     <title> Python ìë£í </title>
+     <description> Python ìë£í </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/python/2017/05/17/Python-%EB%B2%84%EC%A0%84-%EA%B4%80%EB%A6%AC</link>
+     <title> Python ë²ì  ê´ë¦¬ </title>
+     <description> Python ë²ì  ê´ë¦¬ </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/sql/2017/05/19/Structured-Query-Language</link>
+     <title> SQL </title>
+     <description> SQL </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/django/2017/06/29/Django-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A5%BC-AWS%EC%97%90-%EB%B0%B0%ED%8F%AC%ED%95%98%EA%B8%B0-(%EC%A0%84%EC%B2%B4)</link>
+     <title> Django íë¡ì í¸ë¥¼ AWSì ë°°í¬íê¸° (ì ì²´) </title>
+     <description> Django íë¡ì í¸ë¥¼ AWSì ë°°í¬íê¸° (ì ì²´) </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/django/2017/06/25/Django-Runserver-%EA%B0%95%EC%A0%9C-%EC%A2%85%EB%A3%8C</link>
+     <title> Django Runserver ê°ì  ì¢ë£ </title>
+     <description> Django Runserver ê°ì  ì¢ë£ </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/django/2017/06/17/Django-Models-Relation%EC%9D%84-%EA%B7%B8%EB%A6%BC%EC%9C%BC%EB%A1%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0</link>
+     <title> Django Models Relationì ê·¸ë¦¼ì¼ë¡ ë§ë¤ê¸° </title>
+     <description> Django Models Relationì ê·¸ë¦¼ì¼ë¡ ë§ë¤ê¸° </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/django/2017/06/07/Django-ORM</link>
+     <title> Django ORM </title>
+     <description> Django ORM </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/django/2017/06/05/Django-Model-Field-Reference</link>
+     <title> Django Model Field Reference </title>
+     <description> Django Model Field Reference </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/django/2017/06/02/Django-Model</link>
+     <title> Django Model </title>
+     <description> Django Model </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/django/2017/06/01/Django-%EC%88%98%EC%97%85</link>
+     <title> Django ììì¤ tip, memo </title>
+     <description> Django ììì¤ tip, memo </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/django/2017/05/26/Django-Start-tutorial</link>
+     <title> Django Start - tutorial </title>
+     <description> Django Start - tutorial </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/aws/2017/06/30/01-Django-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A5%BC-AWS%EC%97%90-%EB%B0%B0%ED%8F%AC%ED%95%98%EA%B8%B0%EC%9C%84%ED%95%B4-%EC%A4%80%EB%B9%84</link>
+     <title> 01 Django íë¡ì í¸ë¥¼ AWSì ë°°í¬íê¸°ìí´ ì¤ë¹ </title>
+     <description> 01 Django íë¡ì í¸ë¥¼ AWSì ë°°í¬íê¸°ìí´ ì¤ë¹ </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/2017/07/07/Django-3%EC%9E%90%EB%A6%AC-%EB%A7%88%EB%8B%A4-%EC%BD%A4%EB%A7%88-%EC%B0%8D%EA%B8%B0</link>
+     <title> Django 3ìë¦¬ ë§ë¤ ì½¤ë§ ì°ê¸° </title>
+     <description> Django 3ìë¦¬ ë§ë¤ ì½¤ë§ ì°ê¸° </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/2017/07/06/AWS-07-Docker</link>
+     <title> Aws 07 docker </title>
+     <description> Aws 07 docker </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/2017/07/05/AWS-Docker-names-%EC%9E%90%EB%8F%99%EC%99%84%EC%84%B1</link>
+     <title> Aws Docker names ìëìì± </title>
+     <description> Aws Docker names ìëìì± </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/2017/07/05/AWS-06-Nginx</link>
+     <title> Aws 06 nginx </title>
+     <description> Aws 06 nginx </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/2017/07/04/AWS-05-uWSGI</link>
+     <title> Aws 05 uwsgi </title>
+     <description> Aws 05 uwsgi </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/2017/07/03/AWS-04-Local-project%EB%A5%BC-AWS%EC%97%90-upload</link>
+     <title> Aws 04 local projectë¥¼ awsì upload </title>
+     <description> Aws 04 local projectë¥¼ awsì upload </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/2017/07/02/AWS-03-AWS-%EC%A0%91%EC%86%8D-%ED%9B%84-%EC%B4%88%EA%B8%B0-%EC%84%A4%EC%B9%98-%EC%84%A4%EC%A0%95</link>
+     <title> Aws 03 aws ì ì í ì´ê¸° ì¤ì¹:ì¤ì  </title>
+     <description> Aws 03 aws ì ì í ì´ê¸° ì¤ì¹:ì¤ì  </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/2017/07/01/AWS-02-AWS-%EC%84%A4%EC%A0%95</link>
+     <title> Aws 02 aws ì¤ì  </title>
+     <description> Aws 02 aws ì¤ì  </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/page4/</link>
+     <title>  </title>
+     <description>  </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/2017/05/31/Pair-Programming</link>
+     <title> Pair programming </title>
+     <description> Pair programming </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>4</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/page5/</link>
+     <title>  </title>
+     <description>  </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>4</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/page6/</link>
+     <title>  </title>
+     <description>  </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>5</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://recordingbetter.com/2017/05/17/Python-03_Sequence-Types</link>
+     <title> Python 03_sequence Types </title>
+     <description> Python 03_sequence Types </description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>6</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  
