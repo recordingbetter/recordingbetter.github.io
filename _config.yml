@@ -5,6 +5,7 @@ google_analytics: UA-68697418-2
 theme: jekyll-theme-architect
 rooturl: http://recordingbetter.com
 baseurl: ""
+url: http://recordingbetter.com
 categories_path : /categories.html
 
 author:
