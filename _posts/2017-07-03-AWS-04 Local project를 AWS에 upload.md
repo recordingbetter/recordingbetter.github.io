@@ -1,3 +1,10 @@
+---
+title: 04 Local project를 AWS에 upload
+slug: 04 Local project를 AWS에 upload
+layout: post
+categories: AWS
+---
+
 Local project를 AWS에 upload
 
 - AWS 접속

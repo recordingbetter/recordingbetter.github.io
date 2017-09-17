@@ -1,4 +1,12 @@
-Docker names 자동완성 (zsh)
+---
+title: Docker names 자동완성 설정하기
+slug: Docker names 자동완성
+layout: post
+categories: AWS
+---
+
+Docker 컨테이너의 이름, 이미지 이름은 랜덤으로 생성되는데 터미널에서 자동완성이 되지않아 불편하다. 자동완성이 되게 해보자.
+
 
 - zsh completion 설치
 

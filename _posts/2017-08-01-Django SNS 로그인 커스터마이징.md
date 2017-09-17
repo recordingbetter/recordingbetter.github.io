@@ -1,3 +1,10 @@
+---
+title: Django SNS Login 라이브러리
+slug: Django SNS Login
+layout: post
+categories: Django
+---
+
 ## django-allauth
 
 - 업데이트가 잘 된다. (참여가 활성)
