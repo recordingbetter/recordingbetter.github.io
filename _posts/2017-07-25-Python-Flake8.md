@@ -1,4 +1,10 @@
-python 코드가 PEP8 규약에 맞는지 확인해주는 라이브러리
+---
+title: python 코드가 PEP8 규약에 맞는지 확인해주는 라이브러리
+slug: python 코드가 PEP8 규약에 맞는지 확인해주는 라이브러리
+layout: post
+categories: Python
+---
+
 
 ### 설치
 

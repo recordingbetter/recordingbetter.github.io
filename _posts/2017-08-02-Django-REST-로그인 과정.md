@@ -1,4 +1,10 @@
-Login
+---
+title: Session 인증과 Token 인증
+slug: Session 인증과 Token 인증
+layout: post
+categories: DRF
+---
+
 
 1. (유저입장)
 2. 사이트에 접속
@@ -9,6 +15,7 @@ Login
 - Authentication!
 
 ## Django(Web application) - Session인증
+
 1. Login을 했을 때 (Django의 login함수)
 2. Session에 각 User를 특정할 수 있는 Hash값을 저장
     User1 -> hash문자열1

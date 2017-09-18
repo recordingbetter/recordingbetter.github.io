@@ -1,3 +1,10 @@
+---
+title: TDD - Test Driven Development
+slug: TDD - Test Driven Development
+layout: post
+categories: Python
+---
+
 
 - 개발시, 테스트를 먼저 만들고 그 테스트에 맞게 개발을 진행하는 방법
 

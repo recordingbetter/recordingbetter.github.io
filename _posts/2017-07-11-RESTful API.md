@@ -1,4 +1,11 @@
-REST의 탄생 배경
+---
+title: REST의 탄생 배경
+slug: REST의 탄생 배경
+layout: post
+categories: DRF
+---
+
+
 
 #### 프론트엔드Front-End와 백엔드Back-End가 분리되기 시작
 
