@@ -1,6 +1,6 @@
 ---
 title: 04 Local project를 AWS에 upload
-slug: 04 Local project를 AWS에 upload
+slug: 04 Local project AWS upload
 layout: post
 categories: AWS
 ---
